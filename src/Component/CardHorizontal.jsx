@@ -4,6 +4,7 @@ import ratingStars from '../assets/rating.svg'
 import Button from "./miniComponents/Button";
 import SpecialHighlight from "./miniComponents/SpecialHighlight";
 import blueDownArrow from '../assets/blueDownArrow.svg'
+import info from '../assets/info.svg'
 
 function CardHorizontal(props) {
     const { tag, index, name, text, highlight, mainHighlight, rating, ratingComment, specialHighlight } = props;
@@ -26,7 +27,7 @@ function CardHorizontal(props) {
                 </div>
                 <div className="RNB">
                     <div className="rating">
-                        <h2>{rating}</h2>
+                        <h2>{rating} </h2>
                         <p>{ratingComment}</p>
                         <img src={ratingStars} alt="" />
                     </div>

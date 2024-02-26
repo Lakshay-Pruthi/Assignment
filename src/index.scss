@@ -182,7 +182,7 @@ main {
 }
 
 .rating {
-    padding-top: 10px;
+    padding-top: 20px;
     width: 135px;
     height: 118px;
     border-radius: 0px 0px 12px 12px;
@@ -202,6 +202,12 @@ main {
 .rating img {
     width: 80px;
     border-radius: 8px;
+}
+
+.rating h2 img{
+    position: absolute;
+    width: 10px;
+    top: -20px;
 }
 
 .btn {
@@ -324,7 +330,6 @@ main {
     all: unset;
     display: flex;
 }
-
 
 #signup input {
     all: unset;
@@ -450,8 +455,6 @@ footer option {
         display: none;
     }
 
-
-
     #signupContainer h2 {
         width: 250px;
     }
@@ -468,10 +471,4 @@ footer option {
     .RNB {
         padding: 0;
     }
-
-
-
-
-
-
 }
