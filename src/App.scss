@@ -4,3 +4,15 @@ body {
   font-family: "Inter", sans-serif;
   cursor: default;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 70%;
+  max-width: 1200px;
+}

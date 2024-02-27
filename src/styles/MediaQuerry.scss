@@ -1,0 +1,65 @@
+@media screen and (max-width: 1085px) {
+    .cardHorizontal {
+        flex-direction: column;
+    }
+
+    .RNB {
+        flex-direction: row-reverse;
+        height: 100px;
+    }
+
+    .rating {
+        border-radius: 12px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    #signupContainer {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    #signupContainer h2 {
+        width: 300px;
+    }
+
+    #searchbarContainer {
+        display: none;
+    }
+
+    #upperNav ul {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    #innerNav {
+        display: none;
+    }
+
+    #breadcrumb {
+        display: none;
+    }
+
+    .rating {
+        display: none;
+    }
+
+    #signupContainer h2 {
+        width: 250px;
+    }
+
+    #container {
+        width: 80%;
+    }
+
+    #upperNav ul {
+        padding: 0;
+        width: 350px;
+    }
+
+    .RNB {
+        padding: 0;
+    }
+}

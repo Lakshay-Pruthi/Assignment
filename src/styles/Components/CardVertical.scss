@@ -1,0 +1,64 @@
+.cardVertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding-left: 30px;
+}
+
+.cardVertical h5 {
+    color: #626E79;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.cardVertical p {
+    color: #626E79;
+
+}
+
+
+.cardVertical img {
+    width: 200px;
+}
+
+.discountTags {
+    width: 100%;
+}
+
+.discountTag {
+    width: 100px;
+    height: 28px;
+    border-radius: 8px;
+    background: #F2F4F7;
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 13px;
+    color: #074786;
+    ;
+}
+
+.prices {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.prices span {
+    padding-left: 5px;
+}
+
+.p1 {
+    font-size: 20px;
+    color: #5C6874;
+}
+
+.p2 {
+    font-size: 14px;
+    color: #9FA9B3;
+}
+
+.p3 {
+    font-size: 13px;
+    color: #EF4C5D;
+}

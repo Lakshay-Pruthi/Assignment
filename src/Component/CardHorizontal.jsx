@@ -1,5 +1,5 @@
 import Tag from "./miniComponents/Tag";
-import productImage from '../assets/product.png'
+import productImage from '../assets/product.svg'
 import ratingStars from '../assets/rating.svg'
 import Button from "./miniComponents/Button";
 import SpecialHighlight from "./miniComponents/SpecialHighlight";

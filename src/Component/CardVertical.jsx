@@ -1,5 +1,5 @@
 import Button from "./miniComponents/Button";
-import product from '../assets/product.png'
+import product from '../assets/product.svg'
 
 function CardVertical() {
     return (

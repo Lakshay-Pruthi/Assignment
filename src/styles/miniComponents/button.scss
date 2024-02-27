@@ -1,0 +1,19 @@
+.btn {
+    all: unset;
+    color: white;
+    border-radius: 12px;
+    width: 100%;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #1B88F4;
+    transition: 0.5s ease;
+}
+
+.btn:hover {
+    color: rgb(205, 204, 204)smoke;
+    transform: scale(1.01);
+}

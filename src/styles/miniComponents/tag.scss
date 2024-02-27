@@ -1,0 +1,15 @@
+.tag {
+    display: flex;
+    color: white;
+    width: fit-content;
+    padding: 2px 10px;
+    height: 34px;
+    border-radius: 0px 8px 8px 0px;
+    background: #FF7724;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag img {
+    width: 20px;
+}

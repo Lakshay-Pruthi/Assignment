@@ -1,4 +1,4 @@
-import diamond from '../../assets/diamond.png'
+import diamond from '../../assets/diamond.svg'
 
 function Tag(props) {
     const { text } = props;
